@@ -1,0 +1,48 @@
+body{
+  text-align: center;
+  background-color: yellow;
+  font-family: cursive;
+}
+h1{
+  font-size: 2.5rem;
+}
+.clock{
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+  height: 40vw;
+  width: 40vw;
+  background: url(img.png) ;
+  background-size: 100%;
+}
+.hour , .minute, .second{
+  position: absolute;
+  background: black;
+  border-radius: 10px;
+  transform-origin: bottom;
+}
+.hour{
+  width: 1%;
+  height: 25%;
+  position: absolute;
+  top:25%;
+  left:50%;
+}
+.minute{
+  width: 1%;
+  height: 35%;
+  position: absolute;
+  top:15%;
+  left:50%;
+}
+.second{
+  width: 1%;
+  height: 45%;
+  position: absolute;
+  top:5.1%;
+  left:50%;
+}
+footer{
+  margin-top: 50px;
+  font-size: 1.5rem;
+}
